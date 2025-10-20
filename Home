@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Piattaforma professionale per generare contenuti di Data Analysis e Business Intelligence con Python, Power BI e report strategici.">
+    <meta name="keywords" content="Data Analysis, Business Intelligence, Python, Power BI, Excel avanzato, Data Visualization, KPI, Machine Learning, Data-Driven">
+    <title>BI Content Generator</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            color: #1f2937;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #2563eb;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #1d4ed8;
+        }
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        code {
+            display: block;
+            background-color: #e5e7eb;
+            padding: 10px;
+            border-radius: 6px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BI Content Generator</h1>
+        <p>Genera codice, dashboard e report strategici per Data Analysis e Business Intelligence</p>
+    </header>
+    <main>
+        <section>
+            <h2>Chi siamo</h2>
+            <p>
+                La piattaforma BI Content Generator è pensata per professionisti che vogliono migliorare la loro visibilità e creare progetti concreti nel mondo della Data Analysis e Business Intelligence. 
+                Automatizza la creazione di codice Python, dashboard Power BI e report strategici, fornendo insight utili per decisioni data-driven.
+            </p>
+        </section>
+
+        <section>
+            <h2>Come funziona</h2>
+            <p>Inserisci il tuo dataset o descrivi i KPI aziendali e ottieni rapidamente:</p>
+            <ul>
+                <li>Script Python pronti per analisi e visualizzazione dati</li>
+                <li>Dashboard mockup e template per Power BI o Excel avanzato</li>
+                <li>Report sintetici con insight e trend chiave</li>
+            </ul>
+
+            <p>Ecco un esempio rapido di codice generato dalla piattaforma:</p>
+            <code>
+import pandas as pd
+
+# Dataset esempio
+data = {'Team': ['A', 'B'], 'Revenue': [1000, 1500]}
+df = pd.DataFrame(data)
+
+# Calcolo totale e media
+totale = df['Revenue'].sum()
+media = df['Revenue'].mean()
+
+print("Totale:", totale)
+print("Media:", media)
+            </code>
+        </section>
+
+        <section>
+            <h2>Inizia subito</h2>
+            <p>Prova a generare contenuti per i tuoi progetti e migliora il tuo portfolio professionale.</p>
+            <a href="#" class="cta-button">Scopri di più</a>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 BI Content Generator | <a href="https://github.com/tuo-username/bi-content-generator" style="color:#60a5fa; text-decoration:none;">GitHub Repo</a>
+    </footer>
+</body>
+</html>
